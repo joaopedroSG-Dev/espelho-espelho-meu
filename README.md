@@ -1,40 +1,28 @@
-# Instagrão: Espelho, Espelho meu, existe alguém mais bonito que eu?
+# Espelho - seu feed de inspiracao
 
-O Instagram é uma rede social que opta pela simplicidade: você, em teoria, só faz uma coisa.
-A questão é que o Instagram não á tão simples assim, principalmente quanto ao layout.
+Um feed responsivo inspirado no Instagram, com identidade visual propria e publicacoes de personagens ficticios que compartilham ideias, viagens e pequenos momentos do dia. Criado com React, Vite e icones `react-icons`.
 
-Nesse exercício vamos construir uma aplicação clone do Instagram utilizando React. 
-É necessário que tudo pareça com a página principal do Instagram, então temos que ter posts, comentários, botões para curtir e comentar. Não é necessário que nada funcione, mas se quiser, pode.
-
-Para que o projeto não fique genérico ou simples demais, vamos dar um foco maior na escolha do conteúdo: imagine que todo o feed do instagram é feito por pessoas que você admira (pessoas que não existem) e o post de cada uma delas é aquilo que esta pessoa mais quer ver. Escolha algumas pessoas e vamos ver o que sai disso.   
-
-Não esqueça de colocar o link para o seu repositório do Github e alguns prints de como ficou o projeto final.
-
-No LinkedIn postem o resultado final do projeto em formato de vídeo contando um pouco sobre o desenvolvimento, seus desafios e seus sucessos. Marque o professor, o Senac e o Instituto PROA se quiserem. Ahhh...
-
-E se quiserem, podem postar no próprio instagram ;)
-
----
-
-Crie uma versão personalizada de um feed do Instagram usando React. A base possui um cabeçalho, um componente `Post`, dados em JSON e ícones da biblioteca `react-icons`.
-
-## Como executar
+## Executar localmente
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Imagens
+## Recursos
 
-Escolha imagens e coloque-as em `public/images`, seguindo `public/images/README.md`. Os caminhos dos arquivos e demais dados estão em `src/data/posts.json`.
+- Feed e stories responsivos para desktop e celular.
+- Curtir uma publicacao (tambem com duplo clique na imagem) e salvar posts.
+- Ler comentarios e publicar novos comentarios durante a sessao.
+- Publicacoes configuradas em `src/data/posts.json`.
+- Ilustracoes e avatares locais em `public/images`.
 
-## Desafios sugeridos
+## Personalizar
 
-1. Altere cores, fonte, logo e textos para uma nova identidade visual.
-2. Adicione, remova ou edite publicações diretamente no JSON.
-3. Faça o botão de curtir alternar o ícone e atualizar a quantidade de curtidas.
-4. Crie uma área de comentários ou um campo para publicar comentários.
-5. Inclua uma tela de perfil ou uma lista de stories.
+Edite `src/data/posts.json` para trocar perfis, textos, curtidas e imagens. Adicione imagens em `public/images` e atualize os caminhos e textos alternativos no JSON. Para criar novas publicacoes, mantenha os campos `id`, `user`, `location`, `avatar`, `image`, `alt`, `art`, `artLabel`, `artCaption`, `likes` e `caption`.
 
-> Os botões são inicialmente apenas visuais. As interações fazem parte do exercício.
+Curtidas, itens salvos e novos comentarios ficam na memoria apenas enquanto a pagina estiver aberta.
+
+## Apresentacao
+
+Ao publicar sua versao, adicione aqui o link do repositorio GitHub e capturas de tela do projeto final. O desafio original tambem sugere apresentar o resultado em um video no LinkedIn, contando um pouco sobre o desenvolvimento, os desafios e os aprendizados.

@@ -1,8 +1,8 @@
-# Imagens do projeto
+# Imagens
 
-Adicione imagens mantendo os caminhos definidos em `src/data/posts.json`:
+As imagens padrao ja estao incluidas neste projeto:
 
-- `avatars/ana.jpg`, `avatars/viajante.jpg` e `avatars/cafe.jpg`
-- `posts/post-1.jpg`, `posts/post-2.jpg` e `posts/post-3.jpg`
+- `avatars/ana.svg`, `avatars/viajante.svg` e `avatars/cafe.svg`
+- `posts/post-1.svg`, `posts/post-2.svg` e `posts/post-3.svg`
 
-Você pode mudar os caminhos e textos alternativos no JSON.
+Para trocar uma imagem, adicione o arquivo nesta pasta e atualize o caminho correspondente, junto com o texto alternativo, em `src/data/posts.json`.
